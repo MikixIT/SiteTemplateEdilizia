@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Recursive&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Spectral:wght@700&display=swap');
 
 *{
     margin: 0;
@@ -6,7 +7,7 @@
     box-sizing: border-box;
     list-style: none;
     text-decoration: none;
-    font-family: 'Recursive', sans-serif;
+
 } 
 body{ 
     background: white;
@@ -20,26 +21,28 @@ body{
 
 .wrapper .sidebar{
     position: fixed;
-    width: 200px;
+    width: 300px;
     height: 100%;
-    background: black;
+    background:#2B2B2B ;
     padding:30px 0;
 
 }
 
 .wrapper .sidebar h2{
-    color: white;
+    color:#CCCCCC;
     text-transform: uppercase;
     text-align: center;
     margin-bottom: 30px ;
+    font-family: 'Spectral', serif;
 
 }
 
 .wrapper .sidebar ul li{
-    padding: 15px;
+    padding: 40px;
     border-bottom: 1px solid white;
-    border-top: 1px solid grey;
-
+    border-top: 1px solid #2B2B2B;
+    font-family: 'Recursive', sans-serif;  
+    font-size: 20px;
 }
 
 .wrapper .sidebar ul li a{
@@ -48,13 +51,16 @@ body{
 }
 .wrapper .sidebar ul li a .fas{
     width: 25px;
+    font-size: 20px;
+    
+
 }
 
 .wrapper .sidebar ul li:hover{
-    background: grey;
+    background: #3a3a3a;
 }
 .wrapper .sidebar ul li:hover a{
-    background:rgba(128, 128, 128, 0.65);
+
 }
 
 .wrapper .sidebar .social {
@@ -68,7 +74,7 @@ body{
 .wrapper .sidebar .social a{
     display: block;
     width: 50px;
-    background: red;
+    background:#5a5a5a;
     height: 40px;
     line-height: 40px;
     text-align: center;
@@ -76,5 +82,34 @@ body{
     color: white;
     border-top-right-radius:5px;
     border-top-left-radius:5px;
+}
+.wrapper .main_content{
+    width: 100%;
+    margin-left: 300px;
+  }
+  
+  .wrapper .main_content .header{
+    padding: 20px;
+    background: #fff;
+    color: black;
+    border-bottom: 1px solid #e0e4e8;
+    font-size: 60px;
+    text-align: center;
+    font-family: 'Spectral', serif;
+  
+  }
+  
+  .wrapper .main_content .info{
+    margin: 20px;
+    color: black;
+    line-height: 25px;
+    font-family: 'Recursive', sans-serif;
+  }
+  
+  .wrapper .main_content .info div{
+    margin-bottom: 20px;
+  }
 
+.wrapper .main_content .slideshow {
+    text-align: center;
 }
