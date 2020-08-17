@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Recursive&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Spectral:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lemonada:wght@600&display=swap');
 
 *{
     margin: 0;
@@ -8,9 +9,10 @@
     list-style: none;
     text-decoration: none;
 
+
 } 
 body{ 
-    background: white;
+    background-image: url(piastre.jpg);
 
 }
 
@@ -23,13 +25,12 @@ body{
     position: fixed;
     width: 300px;
     height: 100%;
-    background:#2B2B2B ;
-    padding:30px 0;
-
+    background:#330000;
+    padding:10px 0;
 }
 
-.wrapper .sidebar h2{
-    color:#CCCCCC;
+.wrapper .sidebar .main_content .h3 {
+    color:white;
     text-transform: uppercase;
     text-align: center;
     margin-bottom: 30px ;
@@ -38,10 +39,10 @@ body{
 }
 
 .wrapper .sidebar ul li{
-    padding: 40px;
+    padding: 30px;
     border-bottom: 1px solid white;
     border-top: 1px solid #2B2B2B;
-    font-family: 'Recursive', sans-serif;  
+    font-family: 'Lemonada', cursive; 
     font-size: 20px;
 }
 
@@ -52,12 +53,10 @@ body{
 .wrapper .sidebar ul li a .fas{
     width: 25px;
     font-size: 20px;
-    
-
 }
 
 .wrapper .sidebar ul li:hover{
-    background: #3a3a3a;
+    background: #2e2e2e;
 }
 .wrapper .sidebar ul li:hover a{
 
@@ -73,9 +72,9 @@ body{
 
 .wrapper .sidebar .social a{
     display: block;
-    width: 50px;
-    background:#5a5a5a;
-    height: 40px;
+    width: 70px;
+    background:#270303e1;
+    height: 70px;
     line-height: 40px;
     text-align: center;
     margin: 0 5px;
@@ -84,26 +83,31 @@ body{
     border-top-left-radius:5px;
 }
 .wrapper .main_content{
+    background-image: url(piastre.jpg);
     width: 100%;
-    margin-left: 300px;
+    margin-left: 350px;
+
+    
   }
   
   .wrapper .main_content .header{
     padding: 20px;
-    background: #fff;
+    
+
     color: black;
-    border-bottom: 1px solid #e0e4e8;
     font-size: 60px;
     text-align: center;
     font-family: 'Spectral', serif;
+    backdrop-filter: blur(5px);
   
   }
-  
   .wrapper .main_content .info{
     margin: 20px;
-    color: black;
+    color:black;
     line-height: 25px;
     font-family: 'Recursive', sans-serif;
+    backdrop-filter: blur(5px);
+    bottom: 50px;
   }
   
   .wrapper .main_content .info div{
@@ -113,3 +117,7 @@ body{
 .wrapper .main_content .slideshow {
     text-align: center;
 }
+h3{ color:black;
+text-align:center;
+backdrop-filter: blur(5px);}
+
