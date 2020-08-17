@@ -12,7 +12,7 @@
 
 } 
 body{ 
-    background-image: url(piastre.jpg);
+    background:;
 
 }
 
@@ -25,7 +25,7 @@ body{
     position: fixed;
     width: 300px;
     height: 100%;
-    background:#330000;
+    background:black;
     padding:10px 0;
 }
 
@@ -83,7 +83,7 @@ body{
     border-top-left-radius:5px;
 }
 .wrapper .main_content{
-    background-image: url(piastre.jpg);
+    background: white;
     width: 100%;
     margin-left: 350px;
 
@@ -92,9 +92,10 @@ body{
   
   .wrapper .main_content .header{
     padding: 20px;
-    
 
-    color: black;
+
+
+    color: #410505e1;;
     font-size: 60px;
     text-align: center;
     font-family: 'Spectral', serif;
