@@ -86,22 +86,17 @@ body{
     background: white;
     width: 100%;
     margin-left: 350px;
+}
 
-    
-  }
-  
   .wrapper .main_content .header{
     padding: 20px;
-
-
-
     color: #410505e1;;
     font-size: 60px;
     text-align: center;
     font-family: 'Spectral', serif;
     backdrop-filter: blur(5px);
-  
   }
+   img { width: auto; height: 250px; }
   .wrapper .main_content .info{
     margin: 20px;
     color:black;
@@ -120,5 +115,6 @@ body{
 }
 h3{ color:black;
 text-align:center;
+font-size: 35px;
 backdrop-filter: blur(5px);}
 
