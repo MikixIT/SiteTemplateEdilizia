@@ -10,6 +10,7 @@
     text-decoration: none;
 
 
+
 } 
 
 
@@ -55,7 +56,8 @@ body{ }
 }
 
 .wrapper .sidebar ul li:hover{
-    background: #2e2e2e;
+    background: #410505e1;
+
 }
 .wrapper .sidebar ul li:hover a{
 
@@ -89,7 +91,7 @@ body{ }
 
   .wrapper .main_content .header{
     padding: 20px;
-    color: #410505e1;;
+    color: #410505e1;
     font-size: 60px;
     text-align: center;
     font-family: 'Spectral', serif;
@@ -118,17 +120,13 @@ font-size: 35px;
 backdrop-filter: blur(5px);}
 
 .container {
-    margin: 0;
     width: 80%;
     height:600px;
     position: relative;
     overflow: hidden;
-
-    margin-left: 150px;
+    margin-left: 100px;
     padding-top: 30px;
     padding-bottom: 30px;
-    
-
 }
 
 
@@ -157,15 +155,16 @@ backdrop-filter: blur(5px);}
     align-items: center;
 }
 #next-btn, #prev-btn{
-    cursor: pointer;
-    background: transparent ;
-    font: 30px;
-    border: none;
-    padding: 10px;
-    color:black;
+        color: #fff;
+        text-shadow: 1px 1px 1px black;
+        font-size: 3.5em;
+        background-color:#410505e1;
 }
+
+
 #next-btn:focus, #prev-btn:focus{
     outline:none;
+    
 
 }
 .slide-content {
@@ -178,7 +177,8 @@ backdrop-filter: blur(5px);}
   }
 /* Smartphone o piccoli Tablet */
 @media all and (max-width: 480px) {
-    *{zoom: 80%;
+    *{zoom: 85%;
+        font-size: large;
     }
     .container {
         margin: 0;
