@@ -2,14 +2,18 @@
 <html lang="it">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=devic-width,initial-scale=1.0" />
     <link rel="stylesheet"  type="text/css" href="style.css">
+    <link rel="stylesheet" href="">
     <title>Torres Ristrutturazini</title>
     <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+
+
 </head>
 <body>
-    <div class="wrapper">
+    <div class="wrapper">  <!--Menu-->
         <div class="sidebar">
-            <ul>
+            <ul> 
                 <li><a href="#"><i class="fas fa-home"></i> Home</a></li>
                 <li><a href="#"><i class="fas fa-archway"></i> Le Nostre Realizzazioni</a></li>
                 <li><a href="#"><i class="fas fa-check-circle"></i> Servizi</a></li>
@@ -18,21 +22,64 @@
                 <li><a href="#"><i class="fas fa-info-circle"></i> Contatti</a></li>
          </ul>
 
-         <div class="social">
+         <div class="social"> <!--Angolo Basso a Sinistra Social-->
              <a href="https://www.facebook.com/amolamiacasapalermo/"><i class="fab fa-facebook-f"></i></a>
              <a href="#"><i class="fab fa-twitter"></i></a>
              <a href="#"><i class="fab fa-instagram"></i></a>
          </div>  
     </div>
 
-    <div class="main_content">
+    <div class="main_content"> <!--Contenuto Pagina-->
         <div class="header"><a href="#"><img src="logo3.png" border="0"></a></div>
         <h3 class="h3">Impresa Specializzata Nel Settore delle Ristrutturazioni interni ed esterni a Palermo</h3>
+        
         <div class="bodyslide">
-        slide show here</div>
-        <div>buttonshort</div>
-        bottone richiedere preventivo
-        con apparizione finestra sopra con contatti o da decidere 
+        <div class="container">
+            <div class="slides"> <!--Immagini Slide-->
+                <div class="slide">
+                    <img src="slide/1.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="slide/2.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="slide/3.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="slide/4.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="slide/5.jpg" alt="">
+                </div>
+
+            </div> <!--Pulsanti-->
+            <div class="slide-controls">
+                <button id="prev-btn">
+                    <i class="left-btn"><i class="fas fa-arrow-left"></i></button>
+                    <button id="next-btn">
+                        <i class="fas fa-arrow-right"></i></button>
+                </div>
+                <br>
+                <br>
+        </div>
+        
+        
+        
+        
+        </div>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <div class="bottoneprev"></div>
+       
         <div class="info">
             <div>Lorem ipsum dolor sit, amet consectetur adipisicing elit. A sed nobis ut exercitationem atque accusamus sit natus officiis totam blanditiis at eum nemo, nulla et quae eius culpa eveniet voluptatibus repellat illum tenetur, facilis porro. Quae fuga odio perferendis itaque alias sint, beatae non maiores magnam ad, veniam tenetur atque ea exercitationem earum eveniet totam ipsam magni tempora aliquid ullam possimus? Tempora nobis facere porro, praesentium magnam provident accusamus temporibus! Repellendus harum veritatis itaque molestias repudiandae ea corporis maiores non obcaecati libero, unde ipsum consequuntur aut consectetur culpa magni omnis vero odio suscipit vitae dolor quod dignissimos perferendis eos? Consequuntur!</div>
             <div>Lorem ipsum dolor sit, amet consectetur adipisicing elit. A sed nobis ut exercitationem atque accusamus sit natus officiis totam blanditiis at eum nemo, nulla et quae eius culpa eveniet voluptatibus repellat illum tenetur, facilis porro. Quae fuga odio perferendis itaque alias sint, beatae non maiores magnam ad, veniam tenetur atque ea exercitationem earum eveniet totam ipsam magni tempora aliquid ullam possimus? Tempora nobis facere porro, praesentium magnam provident accusamus temporibus! Repellendus harum veritatis itaque molestias repudiandae ea corporis maiores non obcaecati libero, unde ipsum consequuntur aut consectetur culpa magni omnis vero odio suscipit vitae dolor quod dignissimos perferendis eos? Consequuntur!</div>
@@ -40,5 +87,7 @@
       </div>
      </div>
      </div>
-</body>
+     <script src="script.js"></script>
+    </body>
+
 </html>
