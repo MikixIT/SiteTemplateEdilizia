@@ -178,6 +178,8 @@ backdrop-filter: blur(5px);}
   }
 /* Smartphone o piccoli Tablet */
 @media all and (max-width: 480px) {
+    *{zoom: 80%;
+    }
     .container {
         margin: 0;
         width: 90%;
@@ -189,6 +191,8 @@ backdrop-filter: blur(5px);}
         padding-top: 30px;
         padding-bottom: 30px;
         
+        
     
     }
+    
 } 
