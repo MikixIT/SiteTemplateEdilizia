@@ -206,7 +206,7 @@ backdrop-filter: blur(5px);}
         box-sizing: border-box;
         list-style: none;
         text-decoration: none;
-        zoom: 100%;
+       
     } 
 body{ }
 
@@ -318,9 +318,10 @@ body{ }
     margin: 20px;
     color:black;
     line-height: 25px;
-    font-family: 'Recursive', sans-serif;
+    font-family:  sans-serif;
     backdrop-filter: blur(5px);
     bottom: 50px;
+    font-size: 25px;
   }
   
   .wrapper .main_content .info div{
@@ -332,7 +333,7 @@ body{ }
 }
 h3{ color:black;
 text-align:center;
-font-size: 35px;
+font-size: 45px;
 backdrop-filter: blur(5px);}
 
 
